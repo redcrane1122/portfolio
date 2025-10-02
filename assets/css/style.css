@@ -349,6 +349,7 @@ main {
 .avatar-box {
   background: var(--bg-gradient-onyx);
   border-radius: 20px;
+  overflow: hidden;
 }
 
 .info-content .name {
@@ -443,7 +444,7 @@ main {
   margin-bottom: 2px;
 }
 
-.contact-info :is(.contact-link, time, address) {
+.contact-info :is(.contact-link, time, address, .contact-value) {
   color: var(--white-2);
   font-size: var(--fs-7);
 }
