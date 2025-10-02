@@ -6,28 +6,24 @@ const elementToggleFunc = function (elem) {
 };
 const frameworksLanguagesExpertiesButtons = [
   {
-    name: "Flutter",
-    icon: "./assets/images/svg/flutter.svg",
-  },
-  {
-    name: "Dart",
+    name: "Rust",
     icon: "./assets/images/svg/dart.svg",
   },
   {
-    name: "FlutterFlow",
-    icon: "./assets/images/svg/flutterflow.svg",
+    name: "Solidity",
+    icon: "./assets/images/svg/dart.svg",
   },
   {
-    name: "Android Native",
-    icon: "./assets/images/svg/android.svg",
+    name: "React",
+    icon: "./assets/images/svg/javascript.svg",
   },
   {
-    name: "Kotlin",
-    icon: "./assets/images/svg/kotlin.svg",
+    name: "Node.js",
+    icon: "./assets/images/svg/javascript.svg",
   },
   {
-    name: "iOS Native",
-    icon: "./assets/images/svg/iOS.png",
+    name: "Next.js",
+    icon: "./assets/images/svg/javascript.svg",
   },
   {
     name: "TypeScript",
@@ -36,6 +32,22 @@ const frameworksLanguagesExpertiesButtons = [
   {
     name: "JavaScript",
     icon: "./assets/images/svg/javascript.svg",
+  },
+  {
+    name: "Golang",
+    icon: "./assets/images/svg/dart.svg",
+  },
+  {
+    name: "Angular",
+    icon: "./assets/images/svg/javascript.svg",
+  },
+  {
+    name: "Django",
+    icon: "./assets/images/svg/dart.svg",
+  },
+  {
+    name: "PHP/Laravel",
+    icon: "./assets/images/svg/dart.svg",
   },
 ];
 
@@ -69,6 +81,18 @@ const apiServicesExpertiesButtons = [
   {
     name: "GraphQL",
     icon: "./assets/images/svg/graphql.svg",
+  },
+  {
+    name: "WebSocket APIs",
+    icon: "./assets/images/svg/api.svg",
+  },
+  {
+    name: "JSON-RPC",
+    icon: "./assets/images/svg/api.svg",
+  },
+  {
+    name: "Blockchain APIs",
+    icon: "./assets/images/svg/api.svg",
   },
 ];
 const uiUXToolsExpertiesButtons = [
@@ -199,11 +223,15 @@ const codeReviewExpertiesButtons = [
 ];
 const databaseExpertiesButtons = [
   {
-    name: "Local Storage",
+    name: "MongoDB",
     icon: "./assets/images/svg/local-database.png",
   },
   {
-    name: "Sqlite",
+    name: "PostgreSQL",
+    icon: "./assets/images/svg/sqlite.svg",
+  },
+  {
+    name: "MySQL",
     icon: "./assets/images/svg/sqlite.svg",
   },
   {
@@ -211,19 +239,15 @@ const databaseExpertiesButtons = [
     icon: "./assets/images/svg/firebase-firestore.png",
   },
   {
-    name: "Firebase realtime database",
-    icon: "./assets/images/svg/firebase-realtime.png",
-  },
-  {
     name: "Supabase",
     icon: "./assets/images/svg/supabase.svg",
   },
   {
-    name: "Hive",
+    name: "IPFS",
     icon: "./assets/images/svg/hive.png",
   },
   {
-    name: "ObjectBox",
+    name: "Blockchain Storage",
     icon: "./assets/images/svg/objectbox.png",
   },
 ];
@@ -258,39 +282,67 @@ const tootlUtilitiesExpertiesButtons = [
     name: "Postman",
     icon: "./assets/images/svg/postman-icon.svg",
   },
+  {
+    name: "Airtable",
+    icon: "./assets/images/svg/firebase.svg",
+  },
+  {
+    name: "N8N",
+    icon: "./assets/images/svg/firebase.svg",
+  },
+  {
+    name: "Zapier",
+    icon: "./assets/images/svg/firebase.svg",
+  },
+  {
+    name: "CI/CD",
+    icon: "./assets/images/svg/firebase.svg",
+  },
 ];
 const plugnisExpertiesButtons = [
+  {
+    name: "Web3.js",
+    icon: "./assets/images/svg/firebase.svg",
+  },
+  {
+    name: "Ether.js",
+    icon: "./assets/images/svg/firebase.svg",
+  },
+  {
+    name: "Hardhat",
+    icon: "./assets/images/svg/firebase.svg",
+  },
+  {
+    name: "Truffle",
+    icon: "./assets/images/svg/firebase.svg",
+  },
+  {
+    name: "Anchor",
+    icon: "./assets/images/svg/firebase.svg",
+  },
+  {
+    name: "Metaplex",
+    icon: "./assets/images/svg/firebase.svg",
+  },
+  {
+    name: "IPFS",
+    icon: "./assets/images/svg/firebase.svg",
+  },
+  {
+    name: "The Graph",
+    icon: "./assets/images/svg/firebase.svg",
+  },
   {
     name: "Firebase",
     icon: "./assets/images/svg/firebase.svg",
   },
   {
-    name: "OneSignal Notifications",
-    icon: "./assets/images/svg/onesignal.svg",
+    name: "OpenAI",
+    icon: "./assets/images/svg/firebase.svg",
   },
   {
-    name: "In-App-Purchase",
-    icon: "./assets/images/svg/iap.svg",
-  },
-  {
-    name: "Google Map",
-    icon: "./assets/images/svg/google-map.svg",
-  },
-  {
-    name: "Social Login",
-    icon: "./assets/images/svg/social-login.png",
-  },
-  {
-    name: "Notifications",
-    icon: "./assets/images/svg/notification.png",
-  },
-  {
-    name: "Injectable",
-    icon: "./assets/images/svg/injectable.svg",
-  },
-  {
-    name: "Json Serializable",
-    icon: "./assets/images/svg/json.svg",
+    name: "Twilio",
+    icon: "./assets/images/svg/firebase.svg",
   },
 ];
 
